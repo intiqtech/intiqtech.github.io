@@ -191,8 +191,8 @@ a:focus {
 }
 
 .navbar .navbar-brand img {
-  max-width: 100%;
-  max-height: 40px;
+  margin-right: 6px;
+  max-height: 80px;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -245,6 +245,10 @@ a:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
   }
+
+  /* .navbar .nav-logo {
+    visibility: hidden;
+  } */
 }
 
 @media (max-width: 991.98px) {
@@ -264,6 +268,10 @@ a:focus {
   .navbar .dropdown-menu {
     box-shadow: none;
   }
+
+  /* .navbar .company-text {
+    visibility: hidden;
+  } */
 }
 
 /*******************************/
@@ -275,7 +283,6 @@ a:focus {
   height: calc(100vh - 35px);
   min-height: 400px;
   background: #123048;
-  margin-bottom: 45px;
 }
 
 .carousel .container-fluid {
@@ -471,7 +478,7 @@ a:focus {
 
 @media (max-width: 575.98px) {
   .carousel .carousel-text h1 {
-    font-size: 25px;
+    font-size: 75px;
   }
 
   .carousel .carousel-text .btn {
@@ -578,28 +585,28 @@ a:focus {
   transition: 0.3s;
 }
 
-.fact .one .fact-item:hover {
+.fact .one .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: cyan;
+  background-color: #84a6cb;
 }
 
-.fact .two .fact-item:hover {
+.fact .two .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: rgb(9, 224, 63);
+  background-color: #84a6cb;
 }
 
-.fact .three .fact-item:hover {
+.fact .three .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: rgb(229, 245, 10);
+  background-color: #84a6cb;
 }
 
-.fact .four .fact-item:hover {
+.fact .four .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: rgb(238, 68, 38);
+  background-color: #84a6cb;
 }
 
 .fact .fact-item img {
@@ -611,6 +618,7 @@ a:focus {
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 1px;
+  color: #fff;
 }
 
 /*******************************/
@@ -789,6 +797,7 @@ a:focus {
   position: relative;
   width: 100%;
   padding: 45px 0;
+  background-color: #84a6cb;
 }
 
 .feature .col-md-6 {
@@ -845,6 +854,8 @@ a:focus {
 @media (max-width: 767.98px) {
   .feature .feature-img {
     margin-bottom: 45px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -1432,7 +1443,7 @@ a:focus {
 /*******************************/
 .footer {
   position: relative;
-  margin-top: 45px;
+  /* margin-top: 45px; */
   padding-top: 90px;
   background: #123048;
 }
