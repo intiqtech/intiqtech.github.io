@@ -62,9 +62,9 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <!-- <a href="../index.html" class="navbar-brand">Intiq Technology</a> -->
-            <a class="navbar-brand nav-logo" href="#">
-                <img src="../img/logo-4.png" alt="logo">
+            <!-- <a href="index.html" class="navbar-brand company-text">Intiq Technology</a> -->
+            <a class="navbar-brand nav-logo" href="../index.html">
+                <img src="../img/logo-6.png" alt="logo">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -77,10 +77,14 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
                         <div class="dropdown-menu">
-                            <a href="cloud-security.html" class="dropdown-item">Cloud Security</a>
-                            <a href="governance-and-compliance.html" class="dropdown-item">Governance and Compliance</a>
-                            <a href="#" class="dropdown-item active">Application Security</a>
-                            <a href="data-security-services.html" class="dropdown-item">Data Security Services</a>
+                            <a href="cloud-security.html" class="dropdown-item">Cloud
+                                Security</a>
+                            <a href="governance-and-compliance.html" class="dropdown-item">Governance
+                                and Compliance</a>
+                            <a href="#" class="dropdown-item active">Application
+                                Security</a>
+                            <a href="data-security-services.html" class="dropdown-item">Data Security
+                                Services</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
@@ -110,7 +114,7 @@
     <!-- Nav Bar End -->
 
     <!-- Single Page Start -->
-    <div class="single mt-125">
+    <div class="single mt-5" id="start">
         <div class="container">
             <div class="section-header">
                 <p>Service Detail</p>
@@ -151,7 +155,7 @@
                     <div class="footer-newsletter">
                         <h2>Intiq Technology</h2>
                         <p>
-                            <img src="../img/logo.jpg" alt="logo" height="140px" width="370px">
+                            <img src="../img/logo-6.png" alt="logo" height="140px" width="370px">
                         </p>
                     </div>
                 </div>
@@ -178,7 +182,7 @@
                                 <a href="cloud-security.html">Cloud Security</a>
                                 <a href="governance-and-compliance.html">Governance and
                                     Compliance</a>
-                                <a href="#">Application Security</a>
+                                <a href="#start">Application Security</a>
                                 <a href="data-security-services.html">Data Security Services</a>
                             </div>
                         </div>
@@ -188,11 +192,14 @@
         </div>
         <div class="container copyright">
             <div class="row">
-                <div class="col-md-6">
-                    <p>&copy; <a href="#">Intiq Technology</a>, All Right Reserved.</p>
-                </div>
-                <div class="col-md-6">
-                    <p>Made By <a href="https://yohananconsult.com" target="_blank">Yohanan Consult</a></p>
+                <div>
+                    <p>
+                        &copy;
+                        <span id="copyright">
+                            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                        </span>
+                        <a href="#">Intiq Technology</a>, All Right Reserved.
+                    </p>
                 </div>
             </div>
         </div>

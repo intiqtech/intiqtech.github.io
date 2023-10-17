@@ -192,7 +192,8 @@ a:focus {
 
 .navbar .navbar-brand img {
   margin-right: 6px;
-  max-height: 80px;
+  max-height: 40px;
+  max-width: 400px;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -281,6 +282,7 @@ a:focus {
   position: relative;
   width: 100%;
   height: calc(100vh - 35px);
+  /* height: 100vh; */
   min-height: 400px;
   background: #123048;
 }
@@ -1446,6 +1448,10 @@ a:focus {
   /* margin-top: 45px; */
   padding-top: 90px;
   background: #123048;
+}
+
+.footer .footer-newsletter img {
+  max-height: 80px;
 }
 
 .footer .footer-contact,

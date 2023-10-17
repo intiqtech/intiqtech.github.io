@@ -62,9 +62,9 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <!-- <a href="index.html" class="navbar-brand">Intiq Technology</a> -->
-            <a class="navbar-brand nav-logo" href="#">
-                <img src="img/logo-4.png" alt="logo">
+            <!-- <a href="index.html" class="navbar-brand company-text">Intiq Technology</a> -->
+            <a class="navbar-brand nav-logo" href="index.html">
+                <img src="img/logo-6.png" alt="logo">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -73,7 +73,7 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="#" class="nav-item nav-link active">About</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
                         <div class="dropdown-menu">
@@ -87,15 +87,20 @@
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tools</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Specialities</a>
                         <div class="dropdown-menu">
-                            <a href="tools/microsoft-purview.html" class="dropdown-item">Microsoft Purview</a>
-                            <a href="tools/microsoft-defender-for-cloud.html" class="dropdown-item">Microsoft Defender
-                                for Cloud</a>
-                            <a href="tools/microsoft-entra.html" class="dropdown-item">Microsoft Entra</a>
-                            <a href="tools/key-vault.html" class="dropdown-item">Key Vault</a>
-                            <a href="tools/microsoft-365-defender.html" class="dropdown-item">Microsoft 365 Defender</a>
-                            <a href="tools/azure-sentinel.html" class="dropdown-item">Azure Sentinel</a>
+                            <a href="speciality/data-security-and-governance.html" class="dropdown-item">Data Security
+                                and Governance Services</a>
+                            <a href="speciality/cloud-security-posture-management.html" class="dropdown-item">Cloud
+                                Security Posture Management(CSPM & CWPP)</a>
+                            <a href="speciality/identity-and-access-management.html" class="dropdown-item">Identity and
+                                Access Management</a>
+                            <a href="speciality/key-and-secret-management.html" class="dropdown-item">Key and Secret
+                                Management</a>
+                            <a href="speciality/microsoft-365-defender.html" class="dropdown-item">Microsoft 365
+                                Defender</a>
+                            <a href="speciality/azure-sentinel.html" class="dropdown-item">Azure
+                                Sentinel</a>
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
@@ -159,14 +164,16 @@
             </div>
             <div class="owl-carousel testimonials-carousel">
                 <div class="testimonial-item">
-                    <img src="img/team-img-1.jpeg" alt="Image">
+                    <img src="img/vien-health.png" alt="Image">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis mauris. Vivamus
-                        egestas
-                        eleifend dui ac consequat
+                        Vien Health engaged Intiq Technology to help us better meet the needs of our members by
+                        revamping the digital experience
+                        for patients. Intiq helped with the migration of our legacy patient portal and membership hub to
+                        Microsoft Azure. While
+                        putting in place the right security controls to govern the workload that was hosted in Azure.
                     </p>
-                    <h2>Client Name</h2>
-                    <h3>Profession</h3>
+                    <h2>Vien Health</h2>
+                    <h3>Service Provider</h3>
                 </div>
                 <div class="testimonial-item">
                     <img src="img/team-img-1.jpeg" alt="Image">
@@ -292,7 +299,7 @@
                     <div class="footer-newsletter">
                         <h2>Intiq Technology</h2>
                         <p>
-                            <img src="img/logo.jpg" alt="logo" height="140px" width="370px">
+                            <img src="img/logo-6.png" alt="logo" height="140px" width="370px">
                         </p>
                     </div>
                 </div>
@@ -329,11 +336,14 @@
         </div>
         <div class="container copyright">
             <div class="row">
-                <div class="col-md-6">
-                    <p>&copy; <a href="#">Intiq Technology</a>, All Right Reserved.</p>
-                </div>
-                <div class="col-md-6">
-                    <p>Made By <a href="https://yohananconsult.com" target="_blank">Yohanan Consult</a></p>
+                <div>
+                    <p>
+                        &copy;
+                        <span id="copyright">
+                            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                        </span>
+                        <a href="#">Intiq Technology</a>, All Right Reserved.
+                    </p>
                 </div>
             </div>
         </div>
