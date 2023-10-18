@@ -590,25 +590,25 @@ a:focus {
 .fact .one .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: #84a6cb;
+  /* background-color: #84a6cb; */
 }
 
 .fact .two .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: #84a6cb;
+  /* background-color: #84a6cb; */
 }
 
 .fact .three .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: #84a6cb;
+  /* background-color: #84a6cb; */
 }
 
 .fact .four .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: #84a6cb;
+  /* background-color: #84a6cb; */
 }
 
 .fact .fact-item img {
@@ -620,7 +620,7 @@ a:focus {
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 1px;
-  color: #fff;
+  color: #000080;
 }
 
 /*******************************/
@@ -799,7 +799,6 @@ a:focus {
   position: relative;
   width: 100%;
   padding: 45px 0;
-  background-color: #84a6cb;
 }
 
 .feature .col-md-6 {
